@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Login page</title>
+    <script src="validate.js"></script>
+  </head>
+  <body>
+    <h1>Login Page</h1>
+    <form
+      onsubmit="return validate()"
+      action="C:\FSD_Training\success.html"
+      method="post"
+    >
+      <label for="username">UserName</label>
+      <input type="text" id="user" name="username" />
+
+      <br /><br />
+
+      <label for="password">Password</label>
+      <input type="password" id="pass" name="password" />
+
+      <br /><br />
+
+      <input type="submit" value="Login" />
+    </form>
+  </body>
+</html>
